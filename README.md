@@ -1,5 +1,5 @@
 # Welcome to Starbucks-Capstone project
-In this project we will analyze simulated datasets that mimics customer behavior on the Starbucks rewards mobile app.
+In this project we will analyze simulated datasets containing transaction, demographic information and offers that mimics customer behavior on the Starbucks rewards mobile app. The task in this project is to combine these datasets  to determine which demographic groups respond best to which offer type.
 
 ### Table of Contents
 
@@ -29,4 +29,3 @@ Hint: To check for the current working directory using the available notebooks j
 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-
