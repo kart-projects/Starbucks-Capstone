@@ -36,30 +36,30 @@ The data is contained in three files, the data names, shapes, schema and explana
 
 1. **portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)**<br/><br/>
     *Columns*:<br/> 
-        id (string) - offer id<br/>
-        offer_type (string) - type of offer ie BOGO, discount, informational<br/>
-        difficulty (int) - minimum required spend to complete an offer<br/>
-        reward (int) - reward given for completing an offer<br/>
-        duration (int) - time for offer to be open, in days<br/>
-        channels (list of strings)<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id (string) - offer id<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;offer_type (string) - type of offer ie BOGO, discount, informational<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;difficulty (int) - minimum required spend to complete an offer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reward (int) - reward given for completing an offer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;duration (int) - time for offer to be open, in days<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;channels (list of strings)<br/><br/>
     *Rows*: 10 
 
 2. **profile.json - demographic data for each customer**<br/><br/>
     *Columns*:<br/>
-        age (int) - age of the customer<br/>
-        became_member_on (int) - date when customer created an app account<br/>
-        gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)<br/>
-        id (str) - customer id<br/>
-        income (float) - customer's income<br/><br/>
-    *Rows*: 17000
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;age (int) - age of the customer<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;became_member_on (int) - date when customer created an app account<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id (str) - customer id<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;income (float) - customer's income<br/><br/>
+    *Rows*: 17,000
 	
 3. **transcript.json - records for transactions, offers received, offers viewed, and offers completed**<br/><br/>
-    *Columns*<br/><br/>
-        event (str) - record description (ie transaction, offer received, offer viewed, etc.)<br/>
-        person (str) - customer id<br/>
-        time (int) - time in hours since start of test. The data begins at time t=0<br/>
-        value - (dict of strings) - either an offer id or transaction amount depending on the record<br/><br/>
-    *Rows*: 306534
+    *Columns*<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event (str) - record description (ie transaction, offer received, offer viewed, etc.)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;person (str) - customer id<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time (int) - time in hours since start of test. The data begins at time t=0<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value - (dict of strings) - either an offer id or transaction amount depending on the record<br/><br/>
+    *Rows*: 306,534
 
 4. **Starbucks_Capstone_Project.ipynb**
     This is the iron python notebook file where a data mining procedures were followed step by step to predict offers for customers who have not transacted with the mobile app. The notebook is divided into 4 main sections where Data Exploration, Data Preparation and Cleaning, Data Analysis, Model Building and Model Deployment were showcased. Each section is numbered separately to help the reviewer understand the process in a step by step manner.
