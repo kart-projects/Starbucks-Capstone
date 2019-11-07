@@ -41,7 +41,7 @@ The data is contained in three files, the data names, shapes, schema and explana
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;difficulty (int) - minimum required spend to complete an offer<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reward (int) - reward given for completing an offer<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;duration (int) - time for offer to be open, in days<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;channels (list of strings)<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;channels (list of strings)<br/>
     *Rows*: 10 
 
 2. **profile.json - demographic data for each customer**<br/><br/>
@@ -50,7 +50,7 @@ The data is contained in three files, the data names, shapes, schema and explana
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;became_member_on (int) - date when customer created an app account<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id (str) - customer id<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;income (float) - customer's income<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;income (float) - customer's income<br/>
     *Rows*: 17,000
 	
 3. **transcript.json - records for transactions, offers received, offers viewed, and offers completed**<br/><br/>
@@ -58,13 +58,13 @@ The data is contained in three files, the data names, shapes, schema and explana
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event (str) - record description (ie transaction, offer received, offer viewed, etc.)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;person (str) - customer id<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time (int) - time in hours since start of test. The data begins at time t=0<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value - (dict of strings) - either an offer id or transaction amount depending on the record<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value - (dict of strings) - either an offer id or transaction amount depending on the record<br/>
     *Rows*: 306,534
 
-4. **Starbucks_Capstone_Project.ipynb**
+4. **Starbucks_Capstone_Project.ipynb** - 
     This is the iron python notebook file where a data mining procedures were followed step by step to predict offers for customers who have not transacted with the mobile app. The notebook is divided into 4 main sections where Data Exploration, Data Preparation and Cleaning, Data Analysis, Model Building and Model Deployment were showcased. Each section is numbered separately to help the reviewer understand the process in a step by step manner.
 
-5. **targeted_offers.py**
+5. **targeted_offers.py** -
     This is the python file containing the main() function. This file can be executed from a python 3.X commandline using the instruction provided in the ## Installation and instructions <a name="installation"></a> section.
 	
 ## Summary Results<a name="results"></a>
