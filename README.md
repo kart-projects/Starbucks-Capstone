@@ -35,31 +35,31 @@ Apart from the above machine learning and data mining procedures that were recor
 The data is contained in three files, the data names, shapes, schema and explanation of each variable in these files are below:
 
 1. **portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)**
-    *Columns*:
+1.*Columns*:
         id (string) - offer id
         offer_type (string) - type of offer ie BOGO, discount, informational
         difficulty (int) - minimum required spend to complete an offer
         reward (int) - reward given for completing an offer
         duration (int) - time for offer to be open, in days
         channels (list of strings)
-	*Rows*: 10 
+2. *Rows*: 10 
 
 2. **profile.json - demographic data for each customer**
-    *Columns*:
+1. *Columns*:
         age (int) - age of the customer
         became_member_on (int) - date when customer created an app account
         gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)
         id (str) - customer id
         income (float) - customer's income
-    *Rows*: 17000
+2. *Rows*: 17000
 	
 3. **transcript.json - records for transactions, offers received, offers viewed, and offers completed**
-    *Columns*
+1. *Columns*
         event (str) - record description (ie transaction, offer received, offer viewed, etc.)
         person (str) - customer id
         time (int) - time in hours since start of test. The data begins at time t=0
         value - (dict of strings) - either an offer id or transaction amount depending on the record
-	*Rows*: 306534
+2. *Rows*: 306534
 
 4. **Starbucks_Capstone_Project.ipynb**
     This is the iron python notebook file where a data mining procedures were followed step by step to predict offers for customers who have not transacted with the mobile app. The notebook is divided into 4 main sections where Data Exploration, Data Preparation and Cleaning, Data Analysis, Model Building and Model Deployment were showcased. Each section is numbered separately to help the reviewer understand the process in a step by step manner.
