@@ -34,31 +34,31 @@ Apart from the above machine learning and data mining procedures that were recor
 
 The data is contained in three files, the data names, shapes, schema and explanation of each variable in these files are below:
 
-1. **portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)** <br/>
+1. **portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)**<br/><br/>
     *Columns*:<br/> 
         id (string) - offer id<br/>
         offer_type (string) - type of offer ie BOGO, discount, informational<br/>
         difficulty (int) - minimum required spend to complete an offer<br/>
         reward (int) - reward given for completing an offer<br/>
         duration (int) - time for offer to be open, in days<br/>
-        channels (list of strings)<br/>
+        channels (list of strings)<br/><br/>
     *Rows*: 10 
 
-2. **profile.json - demographic data for each customer**
+2. **profile.json - demographic data for each customer**<br/><br/>
     *Columns*:<br/>
         age (int) - age of the customer<br/>
         became_member_on (int) - date when customer created an app account<br/>
         gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)<br/>
         id (str) - customer id<br/>
-        income (float) - customer's income<br/>
+        income (float) - customer's income<br/><br/>
     *Rows*: 17000
 	
-3. **transcript.json - records for transactions, offers received, offers viewed, and offers completed**
-    *Columns*<br/>
+3. **transcript.json - records for transactions, offers received, offers viewed, and offers completed**<br/><br/>
+    *Columns*<br/><br/>
         event (str) - record description (ie transaction, offer received, offer viewed, etc.)<br/>
         person (str) - customer id<br/>
         time (int) - time in hours since start of test. The data begins at time t=0<br/>
-        value - (dict of strings) - either an offer id or transaction amount depending on the record<br/>
+        value - (dict of strings) - either an offer id or transaction amount depending on the record<br/><br/>
     *Rows*: 306534
 
 4. **Starbucks_Capstone_Project.ipynb**
