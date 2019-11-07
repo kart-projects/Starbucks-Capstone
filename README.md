@@ -16,7 +16,7 @@ The included python and iron python notebook files in this repo should run with 
 
 1. To explore this project please download the data folder with **3 JSON datasets, targeted_offers.py and Starbucks_Capstone_Project.ipynb files**.
 
-2. You can either upload the iron python notebook file and the data folder containing the JSON files using the Jupyter notebook which will automatically place these files in the current working directory of your Python installation or place these files in the current working directory and then run the notebooks.
+2. You can upload the iron python notebook file and the data folder containing the JSON files using the Jupyter notebook which will automatically place these files in the current working directory of your Python installation.
 Hint: To check for the current working directory using the available notebooks just type os.getcwd() in a cell and run it. If you would like to change the current working directory before running these notebooks, use the os.chdir function, e.g. if your current working path is c:\projects, the statement you would want to execute is os.chdir("c:&#92;&#92;projects").
 
 3. The targeted_offers.py file can be run from python command line with the following command,<br/>
@@ -57,7 +57,7 @@ The data is contained in three files, the data names, shapes, schema and explana
     *Rows*: 17,000
 	
 3. **transcript.json - records for transactions, offers received, offers viewed, and offers completed**<br/><br/>
-    *Columns*<br/>
+    *Columns*:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;event (str) - record description (ie transaction, offer received, offer viewed, etc.)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;person (str) - customer id<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time (int) - time in hours since start of test. The data begins at time t=0<br/>
