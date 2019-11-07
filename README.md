@@ -22,14 +22,14 @@ Hint: To check for the current working directory using the available notebooks j
 **python targeted_offers.py data\portfolio.json data\transcript.json data\profile.json**
 
 ## Motivation<a name="motivation"></a>
-This project was submitted a part of the Capstone project requirement for the Udacity Data Scientist Nano Degree (DSND) program. The project aims to excercise the Data Scientist skills learnt in the program. I have focused on the following key procedures that were required to logically analyze the datasets and gain more insights so as to provide an offer recommendation to the customers of the Starbucks mobile app.
+This project was submitted as part of the Capstone project requirement for the Udacity Data Scientist Nano Degree (DSND) program. The project aims to excercise the Data Scientist skills learnt in the program. I have focused on the following key procedures that were required to logically analyze the datasets and gain more insights so as to provide an offer recommendation to the customers of the Starbucks mobile app.
 1. Data Exploaration
 2. Data Preparation, Cleaning and Transformation
 3. Descriptive data analysis.
 4. Model Building
 5. Model Deployment
 
-Apart from the above machine learning and data mining procedures that were recorded in the iron python notebook, I also tried some more heuristic data analysis on subsets of targeted population inorder to provide top two recommendations based on the majority vote of influenced customers in the analyzed subset datasets. 
+Apart from the above machine learning and data mining procedures that were recorded in the iron python notebook, I also tried some more heuristic data analysis on subsets of targeted population inorder to provide top two recommendations based on the majority vote of influenced customers within the same targeted subset population. 
 ## File Descriptions <a name="files"></a>
 
 The data is contained in three files, the data names, shapes, schema and explanation of each variable in these files are below:
