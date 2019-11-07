@@ -1,5 +1,6 @@
 # Welcome to Starbucks-Capstone project
-In this project we will analyze simulated datasets containing transaction, demographic information and offers that mimics customer behavior on the Starbucks rewards mobile app. The task in this project is to combine these datasets to determine which demographic groups respond best to which offer type. We will also take a step forward and build out Random Forest models for each offer types which could be used to predict if we should recommend an offer for a customer who has not transacted at all using the mobile app. We could also use the same models to resend offers to customers who were previously not influenced by the other or same offers.   
+
+In this project, we will analyze simulated datasets containing transaction, demographic information and offers that mimics customer behavior on the Starbucks rewards mobile app. The task in this project is to combine these datasets to determine which demographic groups respond best to which offer type. We will also take a step forward and build out Random Forest models for each offer types which could be used to predict if we should recommend an offer for a customer who has not transacted at all using the mobile app. We could also use the same models to resend offers to customers who were previously not influenced by the other or same offers.
 
 ### Table of Contents
 
@@ -22,6 +23,7 @@ Hint: To check for the current working directory using the available notebooks j
 **python targeted_offers.py data\portfolio.json data\transcript.json data\profile.json**
 
 ## Motivation<a name="motivation"></a>
+
 This project was submitted as part of the Capstone project requirement for the Udacity Data Scientist Nano Degree (DSND) program. The project aims to excercise the Data Scientist skills learnt in the program. I have focused on the following key procedures that were required to logically analyze the datasets and gain more insights so as to provide an offer recommendation to the customers of the Starbucks mobile app.
 1. Data Exploaration
 2. Data Preparation, Cleaning and Transformation
@@ -68,18 +70,19 @@ The data is contained in three files, the data names, shapes, schema and explana
     This is the python file containing the main() function. This file can be executed from a python 3.X commandline using the instruction provided in the ## Installation and instructions <a name="installation"></a> section.
 	
 ## Summary Results<a name="results"></a>
+
 In this project I analyzed 3 simulated datasets containing transactions on the Starbucks mobile app using 2 different approaches.
 
 1. The first approach was recorded in the iron python notebook. Here, I gained insights about the dataset through data exploration, built Random Forest machine learning models for each offer types, deployed these models on customer profiles who have not transacted with the mobile app and got offer predictions that can be forwarded to these customers on the app.
 
 2. The second approach was recorded in the targeted_offers.py file. Here, I focused on a heuristic approach to clean, subset, analyze and recommend offers to three targeted subset population.<br/><br/>
-        *(1) Female customers with age >= 45 years and yearly income >= 64000 USD<br/>*
-        *(2) Male customers with age < 45 years and yearly income >= 64000 USD<br/>*
-        *(3) Male customers with age >= 45 years and yearly income >= 64000 USD<br/>*
+        * a. Female customers with age >= 45 years and yearly income >= 64000 USD<br/>*
+        * b. Male customers with age < 45 years and yearly income >= 64000 USD<br/>*
+        * c. Male customers with age >= 45 years and yearly income >= 64000 USD<br/>*
 
 A more detailed summary of all these analysis are available in my blogpost [here]().
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 Since this was a Capstone project for Udacity Data Scientist Nano Degree program, you can find more descriptions about these simulated datasets from a business perspective and also the other types of experiment we could conduct on them in this video [here](https://classroom.udacity.com/nanodegrees/nd025/parts/84260e1f-2926-4127-895f-cc4432b05059/modules/80c955ce-72f2-403a-9bf5-cc58636dab9d/lessons/d6285247-6bc0-4783-b118-6f41981b9469/concepts/480e9dc2-4726-4582-81d7-3b8e6a863450). 
 
-Feel free to use the attached code in the iron python notebook and python code file as you would like! Keep coding to understand and apply datascience.
+I am the author of all the code in the iron python notebook and python code files of this repo. These files were submitted as part of Data Scientist Nano Degree course completion. Feel feel to review the code in these files. I would appreciate any comments or suggestions. Keep coding to understand and apply datascience!
