@@ -68,9 +68,7 @@ The data is contained in three files, the data names, shapes, schema and explana
     This is the iron python notebook file where a data mining procedures were followed step by step to predict offers for customers who have not transacted with the mobile app. The notebook is divided into 4 main sections where Data Exploration, Data Preparation and Cleaning, Data Analysis, Model Building and Model Deployment were showcased. Each section is numbered separately to help the reviewer understand the process in a step by step manner.
 
 5. **targeted_offers.py** -
-    This is the python file containing the main() function. This file can be executed from a python 3.X commandline using the instruction provided in the
-## Installation and instructions <a name="installation"></a>
-section.
+    This is the python file containing the main() function. This file can be executed from a python 3.X commandline using the command provided in the installation and instructions section above.
 
 ## Summary Results<a name="results"></a>
 
