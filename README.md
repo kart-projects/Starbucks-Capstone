@@ -31,7 +31,8 @@ This project was submitted as part of the Capstone project requirement for the U
 4. Model Building
 5. Model Deployment
 
-Apart from the above machine learning and data mining procedures that were recorded in the iron python notebook, I also tried some more heuristic data analysis on subsets of targeted population inorder to provide top two recommendations based on the majority vote of influenced customers within the same targeted subset population. 
+Apart from the above machine learning and data mining procedures that were recorded in the iron python notebook, I also tried some more heuristic data analysis on subsets of targeted population inorder to provide top two recommendations based on the majority vote of influenced customers within the same targeted subset population.
+
 ## File Descriptions <a name="files"></a>
 
 The data is contained in three files, the data names, shapes, schema and explanation of each variable in these files are below:
@@ -67,8 +68,10 @@ The data is contained in three files, the data names, shapes, schema and explana
     This is the iron python notebook file where a data mining procedures were followed step by step to predict offers for customers who have not transacted with the mobile app. The notebook is divided into 4 main sections where Data Exploration, Data Preparation and Cleaning, Data Analysis, Model Building and Model Deployment were showcased. Each section is numbered separately to help the reviewer understand the process in a step by step manner.
 
 5. **targeted_offers.py** -
-    This is the python file containing the main() function. This file can be executed from a python 3.X commandline using the instruction provided in the ## Installation and instructions <a name="installation"></a> section.
-	
+    This is the python file containing the main() function. This file can be executed from a python 3.X commandline using the instruction provided in the
+## Installation and instructions <a name="installation"></a>
+section.
+
 ## Summary Results<a name="results"></a>
 
 In this project I analyzed 3 simulated datasets containing transactions on the Starbucks mobile app using 2 different approaches.
