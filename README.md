@@ -72,10 +72,10 @@ In this project I analyzed 3 simulated datasets containing transactions on the S
 
 1. The first approach was recorded in the iron python notebook. Here, I gained insights about the dataset through data exploration, built Random Forest machine learning models for each offer types, deployed these models on customer profiles who have not transacted with the mobile app and got offer predictions that can be forwarded to these customers on the app.
 
-2. The second approach was recorded in the targeted_offers.py file. Here, I focused on a heuristic approach to clean, subset, analyze and recommend offers to three targeted subset population.<br/>
-        *Female customers with age >= 45 years and yearly income >= 64000 USD<br/>*
-        *Male customers with age < 45 years and yearly income >= 64000 USD<br/>*
-        *Male customers with age >= 45 years and yearly income >= 64000 USD<br/>*
+2. The second approach was recorded in the targeted_offers.py file. Here, I focused on a heuristic approach to clean, subset, analyze and recommend offers to three targeted subset population.<br/><br/>
+        *(1) Female customers with age >= 45 years and yearly income >= 64000 USD<br/>*
+        *(2) Male customers with age < 45 years and yearly income >= 64000 USD<br/>*
+        *(3) Male customers with age >= 45 years and yearly income >= 64000 USD<br/>*
 
 A more detailed summary of all these analysis are available in my blogpost [here]().
 
